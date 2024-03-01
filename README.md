@@ -32,3 +32,40 @@ You will give your resume like a resume.json file.
     "resume": "I am a Python Developer."
 }
 ```
+You will give job descriptions like a jobs.json file.
+```
+[
+    {
+        "URL": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "Job Description": "We are hiring a Python developer."
+    },
+    {
+        "URL": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "Job Description": "We are hiring a Manager Assistant."
+    },
+    {
+        "URL": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "Job Description": "We are hiring Rust developer."
+    }
+]
+```
+You will get results like a similarity_scores.json file.
+```
+[
+    {
+        "url": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "similarity_score": 0.9165565975468735,
+        "fit_class": "High Fit"
+    },
+    {
+        "url": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "similarity_score": 0.7720302865084372,
+        "fit_class": "Low Fit"
+    },
+    {
+        "url": "https://www.linkedin.com/in/muhammed-salih-karademir/",
+        "similarity_score": 0.814412820982544,
+        "fit_class": "Medium Fit"
+    }
+]
+```
