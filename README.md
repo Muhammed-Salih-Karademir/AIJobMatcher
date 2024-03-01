@@ -21,8 +21,8 @@ AIJobMatcher is an innovative tool designed to bridge the gap between job seeker
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/AIJobMatch.git
-cd AIJobMatch
+git clone https://github.com/yourusername/AIJobMatcher.git
+cd AIJobMatcher
 ```
 ### What input and Output
 
